@@ -15,19 +15,27 @@
 ## Usage
 
 ### Import
+
+#### Profile Cards
 ````html
-<link rel="stylesheet" href="../src/gh-repocard.css">
-<script src=""></script>
+<link rel="stylesheet" href="https://lyzev.github.io/GitHubCards/min/gh-profilecard.min.css">
+<script src="https://lyzev.github.io/GitHubCards/min/gh-profilecard.min.js"></script>
 ````
+
+#### Repo Cards
+```html
+<link rel="stylesheet" href="https://lyzev.github.io/GitHubCards/min/gh-repocard.min.css">
+<script src="https://lyzev.github.io/GitHubCards/min/gh-repocard.min.js"></script>
+```
 
 ### Use
 
-#### GitHub Profile Cards
+#### Profile Cards
 ```html
 <gh-profilecard user="username"></gh-profilecard>
 ```
 
-#### GitHub Repo Cards
+#### Repo Cards
 ```html
 <gh-repocards amount="amount of random repos" user="username"></gh-repocards>
 ```
@@ -47,14 +55,13 @@ or
 <body>
 <gh-profilecard user="lyzev"></gh-profilecard>
 
-<link rel="stylesheet" href="../src/gh-profilecard.css">
-<script src="../src/gh-profilecard.js"></script>
+<link rel="stylesheet" href="https://lyzev.github.io/GitHubCards/min/gh-profilecard.min.css">
+<script src="https://lyzev.github.io/GitHubCards/min/gh-profilecard.min.js"></script>
 
 <gh-repocard user="lyzev" repo="DcLogger"></gh-repocard>
 <gh-repocards amount="5" user="lyzev"></gh-repocards>
-
-<link rel="stylesheet" href="../src/gh-repocard.css">
-<script src="../src/gh-repocard.js"></script>
+<link rel="stylesheet" href="https://lyzev.github.io/GitHubCards/min/gh-repocard.min.css">
+<script src="https://lyzev.github.io/GitHubCards/min/gh-repocard.min.js"></script>
 </body>
 </html>
 ```

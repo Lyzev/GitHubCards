@@ -12,10 +12,10 @@ jobs:
         uses: nizarmah/auto-minify@v2.1
         with:
           directory: 'src'
-          output: 'mini'
+          output: 'min'
       - name: Auto committing minified files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          repository: 'mini'
+          repository: 'min'
           commit_message: "Github Action: Auto Minified JS and CSS files"
           branch: ${{ github.ref }}
