@@ -53,8 +53,8 @@ or
     <title>Test</title>
 </head>
 <body>
-<gh-profilecard user="lyzev"></gh-profilecard>
 
+<gh-profilecard user="lyzev"></gh-profilecard>
 <link rel="stylesheet" href="https://lyzev.github.io/GitHubCards/min/gh-profilecard.min.css">
 <script src="https://lyzev.github.io/GitHubCards/min/gh-profilecard.min.js"></script>
 
@@ -62,6 +62,7 @@ or
 <gh-repocards amount="5" user="lyzev"></gh-repocards>
 <link rel="stylesheet" href="https://lyzev.github.io/GitHubCards/min/gh-repocard.min.css">
 <script src="https://lyzev.github.io/GitHubCards/min/gh-repocard.min.js"></script>
+
 </body>
 </html>
 ```
