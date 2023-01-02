@@ -16,6 +16,7 @@
     color: white;
     margin: 0;
     text-decoration: none;
+    box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
 }
 
 .gh-repocard-title:hover {
@@ -24,8 +25,12 @@
 
 .gh-repocard-img {
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
+    height: 64px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.gh-repocard-img-container {
+    display: flex;
 }
 
 .gh-repocard-stats {

@@ -41,6 +41,7 @@ async function generateRepocard(user, repo, container) {
     card.classList.add('gh-repocard-card')
 
     const imgContainer = document.createElement('div')
+    imgContainer.classList.add('gh-repocard-img-container')
 
     const img = document.createElement('img')
     img.src = data.owner.avatar_url
