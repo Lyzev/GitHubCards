@@ -16,6 +16,7 @@
     color: white;
     margin: 0;
     text-decoration: none;
+    text-shadow: 0 0 8px black;
 }
 
 .gh-repocard-title:hover {
@@ -46,6 +47,7 @@
     font-size: 16px;
     color: white;
     text-decoration: none;
+    text-shadow: 0 0 8px black;
 }
 
 .gh-repocard-stats-a:hover {
@@ -57,4 +59,5 @@
     font-size: 12px;
     color: #AAAAAA;
     margin: 0;
+    text-shadow: 0 0 8px black;
 }
