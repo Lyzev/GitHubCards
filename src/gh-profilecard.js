@@ -26,7 +26,7 @@ async function generateProfilecard(user, container) {
     imgContainer.appendChild(img)
 
     let dataContainer = document.createElement('div')
-    dataContainer.style.marginLeft = '10px'
+    dataContainer.style.marginLeft = '20px'
     dataContainer.style.display = 'flex'
     dataContainer.style.flexDirection = 'column'
     dataContainer.style.alignItems = 'flex-start'
