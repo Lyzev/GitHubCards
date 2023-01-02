@@ -18,6 +18,7 @@ async function generateProfilecard(user, container) {
     card.classList.add('gh-profilecard-card')
 
     let imgContainer = document.createElement('div')
+    imgContainer.classList.add("gh-profilecard-img-container")
 
     let img = document.createElement('img')
     img.src = data.avatar_url
