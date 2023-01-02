@@ -30,6 +30,7 @@
 
 .gh-repocard-img-container {
     display: flex;
+    align-items: center;
 }
 
 .gh-repocard-stats {
